@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>Google</title>
+    <script src="https://kit.fontawesome.com/c636ebdd74.js" crossorigin="anonymous">
+    </script>
 </head>
 <body>
-    <h1><b><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></b></h1>
-    <form action="https://www.google.com/search" method="GET">
-        <div class="mx-auto mt-5 search-bar input-group mb-3">
-            <input name="q" type="text" class="form-control rounded-pill" placeholder="Search Google or type a URL" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <!--Header-->
+    <header>
+        <nav class="navbar">
+            <a href="">Gmail</a>
+            <a href="">이미지</a>
+            <a href=""><i class="fas fa-th"></i></a>
+            <a class="login" href="">로그인</a>
+        </nav>
+    </header>
+    <!--Section-->
+    <section>
+        <h1><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></h1>
+        <form action="https://www.google.com/search" method="GET">
+            <input class="search__bar" name="q" type="text" placeholder="Search Google or type a URL">
+        </form>
+        <div class="center__bar">
+            <input class="Google" type="button" value="Google 검색">
+            <input class="IFL" type="button" value="I'm Feeling Lucky">
         </div>
-    </form>
+    </section>
+    <footer>
+        <div class="korea">대한민국</div>
+        <div class="footer__bar">
+            <div class="bar1">
+                <a href="">Google 정보</a>
+                <a href="">광고</a>
+                <a href="">비즈니스</a>
+                <a href="">검색의 원리</a>
+            </div>
+            <div class="bar2">
+                <a href="">개인정보처리방침</a>
+                <a href="">약관</a>
+                <a href="">설정</a>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>
