@@ -7,44 +7,54 @@
     <title>Google</title>
     <script src="https://kit.fontawesome.com/c636ebdd74.js" crossorigin="anonymous">
     </script>
+    <style>
+        a:link {text-decoration: none;}
+        a:hover {text-decoration: underline;}
+    </style>
 </head>
 <body>
     <!--Header-->
     <header>
         <nav class="navbar">
-            <a href="">Gmail</a>
-            <a href="">이미지</a>
-            <a href=""><i class="fas fa-th"></i></a>
-            <a class="login" href="">로그인</a>
+            <a class="gmail" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+            <a class="img" href="https://www.google.co.kr/imghp?hl=ko&tab=wi&ogbl">이미지</a>
+            <a class="app" href="https://www.google.co.kr/intl/ko/about/products?tab=wh"><i class="fas fa-th"></i></a>
+            <a class="login" href="https://accounts.google.com/ServiceLogin?hl=ko&passive=true&continue=https://www.google.co.kr/&ec=GAZAAQ"><b>로그인</b></a>
         </nav>
     </header>
     <!--Section-->
     <section>
         <h1><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></h1>
-        <form action="https://www.google.com/search" method="GET">
-            <input class="search__bar" name="q" type="text" placeholder="Search Google or type a URL">
-        </form>
+        <div class="container">
+            <span class="search__icon"><i class="fas fa-search"></i></span>
+            <form action="https://www.google.com/search" method="GET">
+                <input class="search__bar" name="q" type="text" placeholder="Search Google or type a URL">
+            </form>
+            <span class="keyboard"><i class="far fa-keyboard"></i></span>
+        </div>
         <div class="center__bar">
             <input class="Google" type="button" value="Google 검색">
-            <input class="IFL" type="button" value="I'm Feeling Lucky">
+            <div class="button">
+                <a class="IFL" href="https://www.google.com/doodles">I'm Feeling Lucky</a>
+            </div>
         </div>
     </section>
+    <!--Footer-->
     <footer>
         <div class="korea">대한민국</div>
         <div class="footer__bar">
             <div class="bar1">
-                <a href="">Google 정보</a>
-                <a href="">광고</a>
-                <a href="">비즈니스</a>
-                <a href="">검색의 원리</a>
+                <a href="https://www.google.co.kr/intl/ko_kr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">광고</a>
+                <a href="https://www.google.co.kr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">비즈니스</a>
+                <a href="https://about.google/?utm_source=google-KR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Google 정보</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">검색의 원리</a>
             </div>
             <div class="bar2">
-                <a href="">개인정보처리방침</a>
-                <a href="">약관</a>
-                <a href="">설정</a>
+                <a href="https://policies.google.com/privacy?hl=ko&fg=1">개인정보처리방침</a>
+                <a href="https://policies.google.com/terms?hl=ko&fg=1">약관</a>
+                <a href="https://www.google.co.kr/preferences?hl=ko">설정</a>
             </div>
         </div>
     </footer>
-    
 </body>
 </html>
